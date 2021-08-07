@@ -1,0 +1,205 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component shallow renders without crashing 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <App />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <form
+          onSubmit={[Function]}
+        >
+          <input
+            name="name"
+            onChange={[Function]}
+            type="text"
+            value=""
+          />
+          <button
+            className="submit"
+          >
+            submit
+          </button>
+        </form>,
+        Array [],
+      ],
+      "className": "App",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <input
+              name="name"
+              onChange={[Function]}
+              type="text"
+              value=""
+            />,
+            <button
+              className="submit"
+            >
+              submit
+            </button>,
+          ],
+          "onSubmit": [Function],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "name": "name",
+              "onChange": [Function],
+              "type": "text",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "submit",
+              "className": "submit",
+            },
+            "ref": null,
+            "rendered": "submit",
+            "type": "button",
+          },
+        ],
+        "type": "form",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <form
+            onSubmit={[Function]}
+          >
+            <input
+              name="name"
+              onChange={[Function]}
+              type="text"
+              value=""
+            />
+            <button
+              className="submit"
+            >
+              submit
+            </button>
+          </form>,
+          Array [],
+        ],
+        "className": "App",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <input
+                name="name"
+                onChange={[Function]}
+                type="text"
+                value=""
+              />,
+              <button
+                className="submit"
+              >
+                submit
+              </button>,
+            ],
+            "onSubmit": [Function],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "name": "name",
+                "onChange": [Function],
+                "type": "text",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "submit",
+                "className": "submit",
+              },
+              "ref": null,
+              "rendered": "submit",
+              "type": "button",
+            },
+          ],
+          "type": "form",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`getErrorMessage returns an error for a valid code 1`] = `"The dog walks on a leg"`;
+
+exports[`getErrorMessage returns an error for a valid code 2`] = `"Rabbits don't eat carrots"`;
+
+exports[`getErrorMessage returns an error for a valid code 3`] = `"Cats don't eat mouses"`;
+
+exports[`getErrorMessage throws an error otherwise 1`] = `"No error messages for that code"`;
